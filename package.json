@@ -1,0 +1,53 @@
+{
+  "name": "gulp-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "build": "gulp",
+    "build:scripts": "gulp scripts",
+    "build:styles": "gulp styles",
+    "build:views": "gulp views",
+    "clean": "gulp clean",
+    "images": "gulp images",
+    "start": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wf13as/gulp-webpack.git"
+  },
+  "author": "wf13as",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wf13as/gulp-webpack/issues"
+  },
+  "homepage": "https://github.com/wf13as/gulp-webpack#readme",
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "browser-sync": "^2.26.5",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-cssbeautify": "^1.0.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-strip-css-comments": "^2.0.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}
